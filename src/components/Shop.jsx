@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import { CartContext, ProductContext } from './Root'
 import Product from './Product'
 import { addToDb } from '../utils/fakeDB'
